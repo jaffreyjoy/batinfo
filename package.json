@@ -10,5 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "systeminformation": "^4.0.15"
+  },
+  "bin": {
+    "batinfo": "./index.js"
   }
 }

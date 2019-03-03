@@ -21,15 +21,17 @@ function getBatteryInfo() {
     log(`🔋  Charge Remaining: ${percent}%`);
     log(EOL, 2);
     /*
-        If battery is 100% charged and charger is connected then,
+        If battery is 100% charged and charger is connected, then
         this will still show charging "NO" since the laptop is now
         running on AC power and not battery power.
     */
     log(`🔌  Charging: ${ischarging ? "YES ⚡" : "NO ❌"}`);
     log(EOL, 2);
-    log("⏲️  Time remaining : ");
+    const hours = Math.floor(timeremaining / 60);
+    const minutes = timeremaining - (hrs * 60);
+    log("⏲️  Time remaining: ");
     log((timeremaining != -1)
-        ? `${timeremaining / 60}h ${timeremaining % 60}m`
+        ? `${hours}h ${minutes}m`
         : `Not available`
     );
     log(EOL, 2);

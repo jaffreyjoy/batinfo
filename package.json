@@ -1,0 +1,14 @@
+{
+  "name": "batinfo",
+  "version": "1.0.0",
+  "description": "A simple utility that displays minimal battery information.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Jaffrey Joy",
+  "license": "MIT",
+  "dependencies": {
+    "systeminformation": "^4.0.15"
+  }
+}

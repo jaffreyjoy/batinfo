@@ -28,7 +28,7 @@ function getBatteryInfo() {
     log(`🔌  Charging: ${ischarging ? "YES ⚡" : "NO ❌"}`);
     log(EOL, 2);
     const hours = Math.floor(timeremaining / 60);
-    const minutes = timeremaining - (hrs * 60);
+    const minutes = timeremaining - (hours * 60);
     log("⏲️  Time remaining: ");
     log((timeremaining != -1)
         ? `${hours}h ${minutes}m`

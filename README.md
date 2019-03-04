@@ -1,5 +1,20 @@
-# batinfo
+<div align="center">
+
+<img src="./assets/batinfo-logo.png" align="center">
+
+<h1 >batinfo</h1>
+
+<img src="https://img.shields.io/npm/v/batinfo.svg"/>
+
+<img src="https://img.shields.io/npm/dt/batinfo.svg">
+
+<img src="https://img.shields.io/github/license/Jaffrey98/batinfo.svg">
+
+<p>
 A simple utility that displays minimal battery information.
+</p>
+
+</div>
 
 ## Installation
 ```

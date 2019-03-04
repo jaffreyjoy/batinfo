@@ -2,6 +2,12 @@
   "name": "batinfo",
   "version": "1.0.0",
   "description": "A simple utility that displays minimal battery information.",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/jaffrey98/batinfo.git"
+  },
+  "keywords": ["battery", "charge", "battery information", "charge remaining", "battery status"],
+  "homepage": "https://www.github.com/jaffrey98/batinfo#readme",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"

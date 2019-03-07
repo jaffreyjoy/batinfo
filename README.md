@@ -16,12 +16,19 @@ A simple utility that displays minimal battery information.
 
 </div>
 
-## Installation
+## Installation (Windows)
 ```
-npm install -g batinfo
+ > npm i -g batinfo
 ```
 
-## Run (after completing above step)
+<div align="center">OR</div>
+
+## Installation (UNIX based OS)
+```
+ $ sudo npm i -g batinfo
+```
+
+## Usage (after completing above step)
 ```bash
 H:\__tryouts\batinfo>batinfo
 
@@ -35,13 +42,13 @@ H:\__tryouts\batinfo>batinfo
 
 ## Run (from source)
 ```
-git clone https://www.github.com/jaffrey98/batinfo
+ $ git clone https://www.github.com/jaffrey98/batinfo
 ```
 ```
-cd batinfo
+ $ cd batinfo
 ```
 ```
-node index.js
+ $ node index.js
 ```
 
 ## Credits

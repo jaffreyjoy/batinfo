@@ -45,7 +45,10 @@ H:\__tryouts\batinfo>batinfo
  $ git clone https://www.github.com/jaffrey98/batinfo
 ```
 ```
- $ cd batinfo
+ $ cd batinfo 
+```
+```
+ $ npm i
 ```
 ```
  $ node index.js

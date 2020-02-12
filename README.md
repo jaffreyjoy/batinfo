@@ -16,6 +16,9 @@ A simple utility that displays minimal battery information.
 
 </div>
 
+> This utility was built to counter the battery indicator missing [issue in Windows 10](https://answers.microsoft.com/en-us/windows/forum/windows_10-other_settings/battery-icon-missing-in-windows-10/791788c3-6e68-40cf-8b06-97c0c7c7eb03?auth=1) for me. Apparently, this could also be used to view the battery's charging information while using a command-line OS like ubuntu-server, etc.
+
+
 ## Installation (Windows)
 ```
  > npm i -g batinfo

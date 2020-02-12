@@ -43,6 +43,9 @@ H:\__tryouts\batinfo>batinfo
 
 ```
 
+> The "Time remaining" functionality is only available on UNIX based OS, while the battery is discharging. The above command was run on a Windows machine, hence the "Time remaining" functionality displays as "Not Available".
+
+
 ## Run (from source)
 ```
  $ git clone https://www.github.com/jaffrey98/batinfo

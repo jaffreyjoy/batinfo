@@ -8,7 +8,7 @@
 
 <img src="https://img.shields.io/npm/dt/batinfo.svg">
 
-<img src="https://img.shields.io/github/license/Jaffrey98/batinfo.svg">
+<img src="https://img.shields.io/github/license/jaffreyjoy/batinfo.svg">
 
 <p>
 A simple utility that displays minimal battery information.
@@ -48,7 +48,7 @@ H:\__tryouts\batinfo>batinfo
 
 ## Run (from source)
 ```
- $ git clone https://www.github.com/jaffrey98/batinfo
+ $ git clone https://www.github.com/jaffreyjoy/batinfo
 ```
 ```
  $ cd batinfo 

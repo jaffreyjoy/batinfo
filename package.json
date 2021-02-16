@@ -21,7 +21,7 @@
   "author": "Jaffrey Joy",
   "license": "MIT",
   "dependencies": {
-    "systeminformation": "^4.0.15"
+    "systeminformation": "^5.3.1"
   },
   "bin": {
     "batinfo": "./index.js"
